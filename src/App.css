@@ -36,3 +36,204 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-container{
+  background-color:rgb(184,225,252); ;
+  min-height:100vh;
+  padding-top:30px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding:0px; */
+}
+
+.card-container{
+  background-color: rgb(109,179,242);;
+  min-height:80vh;
+  width:60vw;
+  display: flex;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+.plus-container{
+  display:flex;
+}
+
+.plus{
+  background-color:#ffffff;
+  height:25px;
+  width:25px;
+  color: rgb(109,179,242);
+  border-radius: 5px;
+}
+
+
+.left-side-card{
+  display:flex;
+  flex-direction: column;
+  padding-top:20px;
+  padding-left:20px;
+  width:300px;
+}
+
+
+
+
+.transform{
+  width: 30px;
+  opacity: 100%;
+  transition: var(--transition) 0.2s;
+  color:#ffffff;
+}
+
+.temp-toggle{
+  display:flex;
+  flex-direction: row;
+  padding-left:30px;
+}
+
+
+.temp-f{
+  color:#ffffff;
+  font-size:15px;
+  padding-left: 5px;
+
+}
+
+.temp-c{
+  color:#ffffff;
+  font-size:15px;
+  padding-right: 5px;
+
+}
+
+.element-toggle{
+  color:#ffffff;
+}
+
+
+
+.right-card{
+  background-color: rgb(228,245,252);;
+  width:100%;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+
+  
+}
+
+.right-card-header-container{
+  display:flex;
+  
+  padding-left: 30px;;
+  width:90%;
+  justify-content: space-between;
+}
+
+.header-container{
+  display:flex;
+flex-direction: column;
+
+}
+
+
+.heading-right-card{
+  font-size:15px;
+  margin-top: 14px;
+
+}
+
+.paragraph-right-card{
+  font-size:15px;
+  margin-top: 0px;
+  font-family:"Roboto"
+}
+
+.image-profile{
+  height:50px;
+  width:50px;
+  border-radius: 25px;;
+
+}
+
+.profile-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots-profile{
+  color:#282c34;
+  font-weight:bold;
+  font-size:20px;
+  padding-right:30px;
+}
+
+.more-detils{
+  font-size:15px;
+}
+
+.second-container{
+  padding-left:20px;
+}
+
+.head{
+  font-size:15px;
+  font-family: 'Roboto';
+}
+
+
+.icon-water{
+  color:#61dafb;
+}
+
+.city{
+display:flex;
+flex-direction: column;
+}
+
+.city-name{
+  color:#ffffff;
+  font-size:13px;
+  display:flex;
+  align-items: center;
+  padding-top:20px;
+}
+
+
+.city-time{
+  color:#ffffff;
+  font-size:13px;
+  display:flex;
+  align-items: center;
+  /* padding-top:20px; */
+}
+
+.time-name{
+  padding-left:10px;
+}
+
+.today-date{
+  color:#ffffff;
+  font-size:15px;
+  font-family:"ROboto";
+}
+
+.today-time{
+  color:#ffffff;
+  font-size:15px;
+  font-family:"ROboto";
+  display:flex;
+  align-items: center;
+
+}
+
+.temp-value{
+  color:#ffffff;
+  display:flex;
+  align-items: center;
+}
